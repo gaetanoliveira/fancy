@@ -1,0 +1,224 @@
+body {
+    background-color: #ffffff;
+    width: auto;
+}
+
+
+#Menu {
+	margin-top: 50px;
+	background-color: black;
+}
+
+#Menu span {
+	width:10px;
+	height: 4px;
+}
+
+#Menu span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#Menu span:nth-child(2) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#Menu span:nth-child(3) {
+  top: 36px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#Menu.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+#Menu.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#Menu.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}
+
+#ContainTop{
+	width: 100%;
+	height: 604px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.hello {
+  padding: 0;
+  list-style: none;
+  margin-top: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+
+}
+
+.shlshk {
+  padding: 0;
+  list-style: none;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+
+#LEFT{
+	width: 50%;
+	height: 304px;
+	padding-left: 50px;
+	padding-right: 10px;
+	margin: 0;
+	float: left;
+}
+
+#MessageList {
+	width: 60%;
+	height: 121px;
+}
+
+#RollinMess {
+	width: auto;
+	height: 100%;
+	padding: 0;
+	list-style: none;
+	margin-top: 48px;
+	font-family: helvetica, arial;
+	font-size: 50px;
+	font-weight: 400;
+
+}
+
+#RIGHT {
+	width: 50%;
+	height: 304px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 50px;
+	max-width: 610px;
+}
+
+#Agence {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 500;
+	color: #aaa;
+	line-height: 39px;
+	letter-spacing: -0.4px;
+	padding-right: 50px;
+
+}
+
+#Agence 	 {
+	width: 50px;
+}
+
+
+#Lien1 a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 900;
+	color: black;
+	line-height: 39px;
+	letter-spacing: -0.4px;
+    color: black;
+    transform: linear;
+}
+/*
+#Lien1 :hover {
+  	text-decoration: none;
+	background-color: black;
+	color: white;
+
+}*/
+
+#BlockContenu1 {
+  width: 100%;
+  height: 589.188px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#image1 a img{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+#BlockGauche {
+  width: 100%;
+  height: auto;
+}
+
+#BlockDroit {
+  width: 50%;
+  height: auto;
+  float:left;
+}
+
+
+#image2 a img{
+  width: 100%;
+  height: 48%;
+}
+
+#image3 a img{
+  width: 100%;
+  height: 48%;
+  padding-top: 10px;
+}
+
+#Lien1{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height:30px;
+}
+
+#Lien1 .bg-block{
+  top:30px;
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color: #000;
+  transition: all 1s;
+}
+
+#Lien1 .text{
+  position: absolute;
+}
+
+
+#Lien1:hover .bg-block
+{
+  top:0;
+}
+
+#Lien1:hover .text{
+ color:#fff; 
+}
